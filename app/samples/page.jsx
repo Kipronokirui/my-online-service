@@ -1,9 +1,17 @@
 import React from 'react'
+import { SamplesHero, SamplesDetails } from '@/components/samples'
 
 export default function Page() {
   return (
+    <div>
       <div>
-          Samples Page
+        <SamplesHero />
       </div>
+      <section className='container'>
+        <div>
+          <SamplesDetails />
+        </div>
+      </section>
+    </div>
   )
 }

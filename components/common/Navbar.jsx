@@ -42,6 +42,11 @@ export default function Navbar() {
                     `}
                   >
                       <li>
+                          <a href="/" className={`block py-2 text-black hover:text-blue-600`}>
+                              Home
+                          </a>
+                      </li>
+                      <li>
                           <a href="/services" className={`block py-2 text-black hover:text-blue-600`}>
                               Services
                           </a>
