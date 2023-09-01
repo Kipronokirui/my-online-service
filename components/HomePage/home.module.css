@@ -1,6 +1,6 @@
 .hero {
     position: relative; 
-    height: 70vh;
+    /* height: 70vh; */
     width: 100%;
     background: rgb(0, 74, 185);
     background: rgba(23, 62, 170, 0.5);
@@ -17,4 +17,24 @@
     left: 0;
     /* opacity: 0.75; */
     z-index: -1;
+}
+@media (min-width: 576px) {
+    .hero {
+        height: 30vh;
+    }
+}
+@media (min-width: 768px) {
+    .hero {
+        height: 30vh;
+    }
+}
+@media (min-width: 992px) {
+    .hero {
+        height: 50vh;
+    }
+}
+@media (min-width: 1200px) {
+    .hero {
+        height: 60vh;
+    }
 }
