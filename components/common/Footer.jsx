@@ -41,6 +41,11 @@ export default function Footer() {
             <h1>
               TopTutors
             </h1>
+            <p className='text-sm'>
+              We’ve written thousands of custom dissertations for Ph.D. students who've gone ahead to
+              earn their doctorate degrees. We understand all the challenges that come with writing a
+              dissertation or a thesis for that matter.
+            </p>
           </div>
           {footerItems.map((item, index) => (
           <div key={index}>
@@ -50,7 +55,10 @@ export default function Footer() {
             <div>
               <ul className='text-gray-500 dark:text-gray-400 font-medium'>
                 {item.links.map((link, index) => (
-                  <li key={index}>
+                  <li
+                    key={index}
+                    className='text-white'
+                  >
                     <Link href={link.href}>
                       {link.title}
                     </Link>

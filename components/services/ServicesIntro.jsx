@@ -6,10 +6,10 @@ export default function ServicesIntro() {
       <div className='mt-4'>
           <section>
               {services.map((service, index) => (
-                  <div className={`grid grid-cols-2 gap-2 mb-4`}
+                  <div className={`grid grid-cols-1 lg:grid-cols-2 gap-2 mb-4`}
                       key={index}
                   >
-                    <div className={index % 2 === 0 ? 'order-first' : 'order-last'}>
+                    <div className={`lg-${index % 2 === 0 ? 'order-first' : 'order-last'}`}>
                         <img
                             src={service.image}
                             alt={`Image`}
