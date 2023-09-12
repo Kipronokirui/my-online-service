@@ -38,10 +38,10 @@ export default function Footer() {
       <section className='pt-8 pb-16'>
         <div className={`grid grid-cols-2 md:grid-cols-4 gap-4`}>
           <div>
-            <h1>
+            <h1 className='mb-2 text-medium font-semibold text-gray-200 dark:text-white'>
               TopTutors
             </h1>
-            <p className='text-sm'>
+            <p className='text-sm text-gray-300 dark:text-gray-400 font-medium'>
               We’ve written thousands of custom dissertations for Ph.D. students who've gone ahead to
               earn their doctorate degrees. We understand all the challenges that come with writing a
               dissertation or a thesis for that matter.
