@@ -32,7 +32,7 @@ export default function Hero() {
                       <img
                           src={`/images/happy.jpg`}
                           alt={`Image`}
-                          className='h-80 w-full rounded-lg'
+                          className='h-40 md:h-80 w-full rounded-lg'
                       />
                   </section>
               </div>
