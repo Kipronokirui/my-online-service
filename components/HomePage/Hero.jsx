@@ -5,7 +5,7 @@ import styles from './home.module.css'
 export default function Hero() {
   return (
       <section className={`${styles.hero}`}>
-          <div className='container grid max-w-screen-xl lg:px-8 pt-10 lg:pt-16 mx-auto lg:gap-8 xl:gap-0 lg:py-24 lg:grid-cols-12'>
+          <div className='mb-2 container grid max-w-screen-xl lg:px-8 pt-10 lg:pt-16 mx-auto lg:gap-8 xl:gap-0 lg:py-24 lg:grid-cols-12'>
               <div className='px-4 lg:pl-16 mr-auto place-self-center lg:col-span-7'> 
                   <h1 className='max-w-2xl mb-2 text-2xl font-extrabold text-white tracking-tight leading-none md:text-3xl xl:text-4xl dark:text-white'>
                       ACADEMIC WRITING SERVICE
