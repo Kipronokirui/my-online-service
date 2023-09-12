@@ -27,7 +27,7 @@ export default function Hero() {
                     </Link>
                   </div>
               </div>
-              <div className='px-4 lg:pl-16 mr-auto place-self-center lg:col-span-5'>
+              <div className='mb-2 px-4 lg:pl-16 mr-auto place-self-center lg:col-span-5'>
                   <section>
                       <img
                           src={`/images/happy.jpg`}
