@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Hero, About, Steps, WhatWeOffer } from '@/components/HomePage'
+import { Hero, About, Steps, WhatWeOffer, Describe } from '@/components/HomePage'
 
 export default function Home() {
   return (
@@ -9,6 +9,9 @@ export default function Home() {
       </div>
       <div className={`container`}>
         <About />
+      </div>
+      <div className={`container`}>
+        <Describe />
       </div>
       <div className={`container`}>
         <Steps />

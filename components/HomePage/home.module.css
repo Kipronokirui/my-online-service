@@ -3,7 +3,7 @@
     /* height: 70vh; */
     width: 100%;
     background: rgb(0, 74, 185);
-    background: rgba(23, 62, 170, 0.5);
+    /* background: rgba(23, 62, 170, 0.5); */
 }
 .hero::before {
     content: "";

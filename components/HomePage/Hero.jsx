@@ -11,21 +11,32 @@ export default function Hero() {
                       ACADEMIC WRITING SERVICE
                       DELIVERING THE BEST HELP ONLINE
                   </h1>
-                  <p className="max-w-2xl mb-2 font-light text-gray-200 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                  <p className="max-w-2xl mb-2 font-light text-gray-200 lg:mb-2 md:text-lg lg:text-xl dark:text-gray-400">
                       Are you looking for an academic writer? Delve into our professional writing services online.
                       Opt-in for the best all-inclusive help with academic writing by industry-leading subject
                       virtuosos.
                   </p>
                   <div className='pb-2'>
-                    <Link href={`#`} className='inline-flex items-center justify-center px-3 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800'>
+                      <Link
+                          href={`#`}
+                          className={`inline-flex items-center justify-center px-3 py-2 mr-3 
+                          text-base font-medium text-center text-white rounded-lg
+                          bg-gradient-to-r from-green-400 to-blue-500
+                          hover:from-pink-500 hover:to-yellow-500`}>
                         Get Started
                     </Link>
                   </div>
-                  
               </div>
-              {/* <h1>
-                  Hero Section
-              </h1> */}
+              <div className='hidden px-4 lg:pl-16 mr-auto place-self-center lg:col-span-5'>
+                  <section>
+                      <img
+                          src={`/images/happy.jpg`}
+                          alt={`Image`}
+                          className='h-80 w-full rounded-lg'
+                      />
+                  </section>
+              </div>
+              
           </div>
       </section>
   )
