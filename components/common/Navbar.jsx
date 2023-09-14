@@ -73,17 +73,17 @@ export default function Navbar() {
                       </li>
                   </ul>
               </div>
-              <div className={`items-center justify-between w-full 
+              <div className={`items-center justify-between lg:space-x-2 w-full 
                 md:flex md:w-auto  ${isOpen ? "flex flex-col" : "hidden"}
                 `}>
                   <button className={`text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none
-                   focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 ${isOpen ? "w-full" :""}
+                   focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 ${isOpen ? "w-full mb-2" :""}
                    `}
                   >
                       Get Started
                   </button>
                   <button className={`text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none
-                   focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 ${isOpen ? "w-full" :""}
+                   focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 ${isOpen ? "w-full mb-2" :""}
                    `}
                   >
                       Login
