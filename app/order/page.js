@@ -1,10 +1,14 @@
 import React from 'react'
-import Form from '@/components/OrderForm/Form'
+import Common from '@/components/OrderForm/Common'
+import QuestionDescription from '@/components/OrderForm/QuestionDescription'
 
 export default function page() {
   return (
-      <div>
-          <Form />
-      </div>
+    <div>
+      <Common />
+      <section className={`bg-green-300`}>
+        <QuestionDescription />
+      </section>
+    </div>
   )
 }
